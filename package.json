@@ -1,0 +1,11 @@
+{
+  "private": false,
+  "version": "1.0.0",
+  "scripts": {
+    "demo": "node src/index.mjs fixtures/sample.json --format summary",
+    "build": "node src/index.mjs fixtures/sample.json --format json > site/report.json",
+    "test": "node --test"
+  },
+  "name": "zapier-hubspot-automation-hygiene-check",
+  "type": "module"
+}

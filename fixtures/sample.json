@@ -1,0 +1,31 @@
+{
+  "product": "Zapier HubSpot Automation Hygiene Check",
+  "vertical": "Revenue Operations",
+  "signals": [
+    "Zapier",
+    "HubSpot"
+  ],
+  "lanes": [
+    {
+      "lane": "exposure",
+      "owner": "Executive operator",
+      "score": 82,
+      "issue": "Unowned automation hygiene, CRM trigger drift, duplicate workflows, and attribution-safe routing",
+      "next": "Assign an accountable owner and evidence path"
+    },
+    {
+      "lane": "savings",
+      "owner": "Finance partner",
+      "score": 76,
+      "issue": "Duplicated tooling and stale workflow evidence",
+      "next": "Quantify recoverable spend and remove duplicated handoffs"
+    },
+    {
+      "lane": "investment",
+      "owner": "Platform lead",
+      "score": 88,
+      "issue": "Critical control plane needs clearer funding priority",
+      "next": "Package the strongest board-ready investment narrative"
+    }
+  ]
+}

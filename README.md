@@ -1,41 +1,48 @@
-# zapier-hubspot-automation-hygiene-check
+# Zapier HubSpot Automation Hygiene Check
 
-Zapier HubSpot Automation Hygiene Check is a Kinetic Gain portfolio proof repo for **Zapier, HubSpot** across Revenue Operations.
+Zapier HubSpot Automation Hygiene Check turns Zapier, HubSpot operating evidence into board-ready exposure, savings, investment, and narrative decisions.
 
-It turns automation hygiene, CRM trigger drift, duplicate workflows, and attribution-safe routing into a small board-readable intelligence packet: where risk is building, where money is leaking, what deserves investment, and what story leaders can tell with evidence.
+## What it answers
 
-## Platform and company signals
+Can leadership explain where Zapier, HubSpot creates exposure, savings opportunity, investment priority, or board-visible execution risk?
 
-- Zapier
-- HubSpot
+## Decision lanes
 
-## What it includes
+- **Exposure** (82) — Unowned automation hygiene, CRM trigger drift, duplicate workflows, and attribution-safe routing Next: Assign an accountable owner and evidence path
+- **Savings** (76) — Duplicated tooling and stale workflow evidence Next: Quantify recoverable spend and remove duplicated handoffs
+- **Investment** (88) — Critical control plane needs clearer funding priority Next: Package the strongest board-ready investment narrative
 
-- runnable Node CLI for summarizing synthetic control-plane lanes
-- JSON fixture with exposure, savings, and investment lanes
-- static proof page in site/index.html
-- lightweight CI using Node's built-in test runner
-- no production credentials, no customer data, no external API calls
+## Operating workflow
+
+- **Ingest:** Collect Zapier + HubSpot operating evidence without exposing credentials or raw customer data.
+- **Score:** Translate exceptions into exposure, savings, investment, and narrative confidence lanes.
+- **Route:** Assign each lane to one accountable owner with a next action and review window.
+- **Package:** Produce a board-ready packet with decisions, tradeoffs, and proof links.
+
+## Board pack outputs
+
+- One-page Revenue Operations decision brief
+- Zapier / HubSpot exposure and ownership map
+- Priority lane: Investment
+- Savings, remediation, and investment narrative
+- Public-demo boundary and evidence-source notes
 
 ## Local run
 
-`powershell
+```bash
+npm install
 npm test
-npm run demo
 npm run build
-`
+```
 
-## Output shape
+## Links
 
-`json
-{
-  "product": "Zapier HubSpot Automation Hygiene Check",
-  "signals": ["Zapier", "HubSpot"],
-  "averageScore": 82,
-  "priorityLane": "investment"
-}
-`
+- [Portfolio atlas](https://portfolio.kineticgain.com/)
+- [Kinetic Gain](https://kineticgain.com/)
+- [GitHub repo](https://github.com/mizcausevic-dev/zapier-hubspot-automation-hygiene-check)
+- [Zapier surface](https://zapier.kineticgain.com/)
+- [HubSpot surface](https://hubspot.kineticgain.com/)
 
-## Kinetic Gain fit
+## Public-demo boundary
 
-This repo supports the Platform and Company Signals layer of the portfolio atlas. It is intentionally small, readable, and evidence-oriented so executives can see the operating pattern without requiring access to live enterprise systems.
+No production credentials, customer records, private contracts, or admin-console exports belong in this repo. Fixtures are synthetic and intended to prove the decision shape only.
